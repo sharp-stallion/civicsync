@@ -1,0 +1,35 @@
+{
+  "name": "civicsync-south-chennai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "seed:osm": "node scripts/fetch_osm_south_chennai.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "i18next": "^23.16.8",
+    "leaflet": "^1.9.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^15.4.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.9.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}
