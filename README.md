@@ -3,6 +3,9 @@
 **Public-works transparency, _Dig-Once_ coordination, and a citizen demand board for South Chennai.**
 
 🔗 **Live demo:** https://civicsync-gamma.vercel.app
+
+🔗 **Live video:** https://drive.google.com/file/d/1YEYXvz2sphvOLJPlqO4e2DV8QfnhqCGT/view?usp=sharing
+
 🛠 **Stack:** React 19 + Vite + TypeScript · Supabase (PostgreSQL + Auth + RLS + Storage) · Leaflet/OpenStreetMap · deployed on Vercel
 
 One place where residents see every registered dig — its purpose, timeline and the
